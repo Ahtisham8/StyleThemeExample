@@ -83,13 +83,15 @@
             android:inputType="textPassword" />
 
 
-
         <Button
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/gradient"
             android:onClick="clickMe"
             android:text="Click here"
-            android:layout_marginBottom="100dp"/>
+            android:textColor="@android:color/background_dark" />
 
 
     </LinearLayout>
